@@ -1,0 +1,65 @@
+*{
+    background-color: pink;
+    /* background-color: linear-gradient(to right,#f64f59,#c471ed,#12c2e9); */
+
+}
+#tablediv{
+    border: 1px solid black;
+    box-shadow:  0.01rem 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+th,td{
+    width: 19vw;
+    height: 5vh;
+    border: 1px solid #000000;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+table{
+    margin: auto;
+}
+#main{
+    width: 80vw;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 5vh;
+}
+input{
+    width: 13vw;
+    height: 4vh;
+    background-color: white;
+    margin-left: 0.3vw;
+    border-radius: 1vh;
+    font-size: 1em;
+}
+#input1{
+    margin-left: 15vw;
+}
+
+
+button:hover{
+    background-color: blue;
+
+
+}
+button{
+    height: 4.5vh;
+    border-radius: 1vh;
+    margin-left: 0.3vw;
+    background-color: aliceblue;
+    color: white;
+    font-size: 1em;
+    color: black;
+}
+
+
+
+.fa-search:before {
+    content: "\f002";
+}
+
+
+
+
+
