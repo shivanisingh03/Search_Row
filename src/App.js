@@ -1,13 +1,14 @@
+
+
+
+
 import './App.css';
-
-
-
 import React, { useState } from "react"
 // install lodash(npm install lodash)
 const _ = require('lodash')
 export default function App() {
   const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("")
+  const [lastName, setLastName] = useState("")  
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [allData, setAllData] = useState([])
@@ -15,12 +16,12 @@ export default function App() {
   const [filteredData, setFilteredData] = useState([])
 
   const searchFunction = () => {
-    console.log("hiii")
+    // console.log("hiii")
     if (searchItem.length > 3) {
-      console.log("Entered the filter function")
+      // console.log("Entered the filter function")
       let filteredItems = _.filter(allData, { "firstName": searchItem })
       setFilteredData(filteredItems)
-      console.log(filteredItems)
+      // console.log(filteredItems)
     }
   }
   return (
@@ -31,8 +32,7 @@ export default function App() {
  onChange={(e) => {
           setSearchItem(e.target.value)
           searchFunction()
-        }} />
-        
+        }} /> 
        
       </div>
       
@@ -114,7 +114,6 @@ export default function App() {
 
   )
 }
-
 
 
 
